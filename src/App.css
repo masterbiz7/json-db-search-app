@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  position: relative;
+  margin: 5px auto;
+  display: flex;
+  flex-direction: column;  
+  max-width: 1200px;
+  box-shadow: 0 0 5px #cccaca;
+  height: 100vh;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(210,214,206,0.0760679271708683) 0%, rgba(223,241,212,1) 100%);
+}
+ul li {
+  list-style: none;
+}
+ul {
+  padding: 0; /* Убираем поля */
+  margin-left: 20px; /* Отступ слева */
+}
+img {
+  padding-top: 10px;
+  padding-right: 15px;
+}
+.container {
+  margin-bottom: 30px;
+  margin-right: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;  
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+input {
+  width: 300px;
+  margin: 0 auto;
+  height: 20px;
+  outline: none;
+  border: 2px solid #cecece;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+input:focus {
+  border-color: green;
+}
+.card {
+  box-shadow: 0 0 10px #aeaeae;
+  margin: 10px 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  background-color: #fff;
+}
+.full-info {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  box-shadow: 0 0 10px #aeaeae;
+  margin-top: 10px;  
+  padding-right: 15px;
+  background-color: #fff;
+}
+.info {
+  text-align: left;
+  line-height: 1;
+  padding-left: 10px;
+}
+.bold {
+  font-weight: bold;
+}
+
+.general-info {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;  
+  margin: 0 10px;  
+}
+.card:hover {
+  cursor: pointer;
+  background-color: beige;
+}
+
+.full-info img {
+  max-width: 100%;
+  padding-left: 15px;
+  
+}
+.card> img {
+  width: 50px;
+  padding: 15px;
+}
+
+.copyright {  
+  font-weight: 600;
+  transform: translateY(15px);
+  position: absolute;
+  bottom: 20px;
+  left: 10%;
+   
+}
